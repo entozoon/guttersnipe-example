@@ -1,0 +1,11 @@
+{
+  "name": "guttersnipe-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd cms && npm run start:cms"
+  },
+  "author": "",
+  "license": "ISC"
+}
