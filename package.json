@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd cms && npm run start:cms"
+    "start": "cd node_modules/guttersnipe && npm run start:cms"
   },
   "author": "",
   "license": "ISC"
