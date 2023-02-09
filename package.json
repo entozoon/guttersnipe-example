@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm explore guttersnipe -- npm run dev"
+    "start": "npm-run-all -p start:*",
+    "start:ui": "npm explore guttersnipe -- npm run start:ui",
+    "start:api": "guttersnipe-api",
+    "dev": "cd ../guttersnipe && npm run dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "guttersnipe": "../guttersnipe"
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5"
   }
 }
