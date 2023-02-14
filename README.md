@@ -7,3 +7,12 @@ https://guttersnipe-example.netlify.app/
 ## Requirements
 
 - Node 18+
+
+## Dev
+
+See guttersnipe
+
+## Production (TODO)
+
+    npm i guttersnipe
+    npm run start

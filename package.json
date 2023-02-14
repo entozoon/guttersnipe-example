@@ -6,8 +6,7 @@
   "scripts": {
     "start": "npm-run-all -p start:*",
     "start:ui": "npm explore guttersnipe -- npm run start:ui",
-    "start:api": "guttersnipe-api",
-    "dev": "cd ../guttersnipe && npm run dev"
+    "start:api": "guttersnipe-api"
   },
   "author": "",
   "license": "ISC",
